@@ -1,0 +1,189 @@
+EESchema Schematic File Version 4
+LIBS:BlinkerPositionsleuchte-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5CA4949E
+P 2500 2150
+F 0 "Q?" H 2706 2196 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 2706 2105 50  0000 L CNN
+F 2 "" H 2700 2250 50  0001 C CNN
+F 3 "~" H 2500 2150 50  0001 C CNN
+	1    2500 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5CA4B14B
+P 2050 2350
+F 0 "C?" H 2165 2396 50  0000 L CNN
+F 1 "500n" H 2165 2305 50  0000 L CNN
+F 2 "" H 2088 2200 50  0001 C CNN
+F 3 "~" H 2050 2350 50  0001 C CNN
+	1    2050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA4B499
+P 1800 2350
+F 0 "R?" H 1870 2396 50  0000 L CNN
+F 1 "2MEG" H 1870 2305 50  0000 L CNN
+F 2 "" V 1730 2350 50  0001 C CNN
+F 3 "~" H 1800 2350 50  0001 C CNN
+	1    1800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5CA4B7A3
+P 2600 1450
+F 0 "R?" H 2670 1496 50  0000 L CNN
+F 1 "10k" H 2670 1405 50  0000 L CNN
+F 2 "" V 2530 1450 50  0001 C CNN
+F 3 "~" H 2600 1450 50  0001 C CNN
+	1    2600 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5CA4C12C
+P 3150 1850
+F 0 "Q?" H 3356 1896 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 3356 1805 50  0000 L CNN
+F 2 "" H 3350 1950 50  0001 C CNN
+F 3 "~" H 3150 1850 50  0001 C CNN
+	1    3150 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5CA4D750
+P 4250 1850
+F 0 "Q?" H 4456 1896 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4456 1805 50  0000 L CNN
+F 2 "" H 4450 1950 50  0001 C CNN
+F 3 "~" H 4250 1850 50  0001 C CNN
+	1    4250 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA4E7FC
+P 1800 2650
+F 0 "#PWR?" H 1800 2400 50  0001 C CNN
+F 1 "GND" H 1805 2477 50  0000 C CNN
+F 2 "" H 1800 2650 50  0001 C CNN
+F 3 "" H 1800 2650 50  0001 C CNN
+	1    1800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA4EEFE
+P 2050 2650
+F 0 "#PWR?" H 2050 2400 50  0001 C CNN
+F 1 "GND" H 2055 2477 50  0000 C CNN
+F 2 "" H 2050 2650 50  0001 C CNN
+F 3 "" H 2050 2650 50  0001 C CNN
+	1    2050 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA4F0D5
+P 2600 2600
+F 0 "#PWR?" H 2600 2350 50  0001 C CNN
+F 1 "GND" H 2605 2427 50  0000 C CNN
+F 2 "" H 2600 2600 50  0001 C CNN
+F 3 "" H 2600 2600 50  0001 C CNN
+	1    2600 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA4F4CE
+P 3250 2600
+F 0 "#PWR?" H 3250 2350 50  0001 C CNN
+F 1 "GND" H 3255 2427 50  0000 C CNN
+F 2 "" H 3250 2600 50  0001 C CNN
+F 3 "" H 3250 2600 50  0001 C CNN
+	1    3250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA4FEED
+P 4150 2600
+F 0 "#PWR?" H 4150 2350 50  0001 C CNN
+F 1 "GND" H 4155 2427 50  0000 C CNN
+F 2 "" H 4150 2600 50  0001 C CNN
+F 3 "" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 2600 950  1    50   Input ~ 0
+12V
+Wire Wire Line
+	1800 2500 1800 2650
+Wire Wire Line
+	2050 2500 2050 2650
+Wire Wire Line
+	2300 2150 2050 2150
+Wire Wire Line
+	2050 2150 2050 2200
+Wire Wire Line
+	2050 2150 1800 2150
+Wire Wire Line
+	1800 2150 1800 2200
+Connection ~ 2050 2150
+Wire Wire Line
+	2600 2350 2600 2600
+Wire Wire Line
+	2600 1950 2600 1850
+Wire Wire Line
+	2600 1300 2600 950 
+Wire Wire Line
+	2600 1850 2950 1850
+Connection ~ 2600 1850
+Wire Wire Line
+	2600 1850 2600 1600
+Wire Wire Line
+	3250 2050 3250 2600
+Wire Wire Line
+	4150 2050 4150 2600
+Wire Wire Line
+	3250 1650 3250 1500
+Wire Wire Line
+	3250 1500 3700 1500
+Wire Wire Line
+	4150 1500 4150 1650
+Text GLabel 2050 1600 1    50   Input ~ 0
+BL
+Wire Wire Line
+	2050 1600 2050 2150
+Text GLabel 4800 1850 2    50   Input ~ 0
+BL
+Wire Wire Line
+	4450 1850 4800 1850
+Text GLabel 3700 1200 1    50   Input ~ 0
+TFL_GND
+Wire Wire Line
+	3700 1200 3700 1500
+Connection ~ 3700 1500
+Wire Wire Line
+	3700 1500 4150 1500
+$EndSCHEMATC
